@@ -1,0 +1,74 @@
+* {box-sizing: border-box}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    text-align: center;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 20px;
+    border-bottom: solid 1px black;
+}
+.container {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.container a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    width: 33%;
+    text-align: center;
+}  
+.container a:hover {
+    background-color: #000;
+} 
+.container a.active {
+    background-color: #4CAF50;
+}
+main{
+    margin: 0 30px;
+}
+.images h1, .author h1{
+    background-color: #5cb85c;
+    color: #3a77ad;
+    text-align: center;
+    padding: 10px;
+}
+.images img{
+    margin: auto;
+    width: 100%;
+}
+figure {
+    border: 1px #8b8a8a solid;
+    padding: 5px;
+    margin: auto;
+    max-width: 660px;
+}
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    padding: 20px 20px;
+}
+.contact-container address{
+    margin: auto;
+}
+footer{
+    background-color: rgb(94, 92, 92);
+    color: whitesmoke;
+    font-size: smaller;
+    padding: 20px;
+}
+  
